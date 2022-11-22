@@ -84,19 +84,32 @@ body {
 .p2greybox {
     width: 50%;
     height: 50%;
-    background-color: rgb(159, 158, 158);
+    background-color: rgb(50, 50, 50);
     position: absolute;
     right: 0;
     bottom: 0;
 }
-.whitehead {
+.whitehead,
+.greyhead {
+    position: absolute;
+    top: 10%;
+    left: 10%;
     font-size: 45px;
     font-weight: 900;
 }
-.whitedesc {
+.whitedesc,
+.greydesc {
+    position: absolute;
+    right: 10%;
+    top: 13%;
     font-size: 18px;
-    width: 50%;
+    width: 30%;
 }
-.whitetools {
+.whitetools,
+.greyclass {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    font-weight: 600;
     font-size: 20px;
 }
