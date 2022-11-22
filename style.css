@@ -72,3 +72,31 @@ body {
     width: 40%;
     margin-top: 20px;
 }
+.p2whitebox {
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    color: black;
+    top: 0;
+}
+.p2greybox {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(159, 158, 158);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.whitehead {
+    font-size: 45px;
+    font-weight: 900;
+}
+.whitedesc {
+    font-size: 18px;
+    width: 50%;
+}
+.whitetools {
+    font-size: 20px;
+}
