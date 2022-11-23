@@ -117,3 +117,46 @@ body {
     font-weight: 600;
     font-size: 20px;
 }
+
+.p3gradbox {
+    background: linear-gradient(
+        to right,
+        rgb(255, 126, 103),
+        rgb(90, 123, 222)
+    );
+    color: white;
+}
+
+.p3box {
+    width: 50%;
+    height: 50%;
+    padding-top: 5%;
+    padding-left: 5%;
+    color: white;
+}
+.p3black {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.p3white {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    color: black;
+    right: 0;
+}
+.p3grey {
+    background-color: grey;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.p3silver {
+    background-color: silver;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: black;
+}
